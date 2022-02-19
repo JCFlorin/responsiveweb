@@ -121,5 +121,10 @@ nav ul li a {
     margin-right: auto;
 }
 
-
+/* Section 3 */
+#section-3{
+    background-color: #3c5499;
+    min-height: 820px;
+    color:white;
+}
 
