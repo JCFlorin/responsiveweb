@@ -128,3 +128,52 @@ nav ul li a {
     color:white;
 }
 
+#contact-form {
+    max-width: 870px;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+
+input[type="text"], input[type="email"],textarea{
+    color: white;
+    background-color: #273a71;
+    border: none;
+    font-size: 18px;
+    margin: 16px;
+    border-radius: 5px;
+    padding-left: 16px;
+    
+
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder,textarea::placeholder{
+    color: white;
+    
+}
+
+input[type="text"], input[type="email"]{
+    width: 50%;
+    height: 56px;
+}
+textarea {
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+}
+.form-row{
+    display: flex;
+}
+
+input[type="submit"]{
+    background-color: #30bae7;
+    border: none;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
